@@ -14,6 +14,7 @@
 
 mavros_msgs::State current_state;
 sensor_msgs::NavSatFix current_gps_state;
+geometry_msgs::PoseStamped current_pose;
 
 void state_cb(const mavros_msgs::State::ConstPtr& msg){
     current_state = *msg;
@@ -21,6 +22,10 @@ void state_cb(const mavros_msgs::State::ConstPtr& msg){
 
 void gps_state_cb(const sensor_msgs::NavSatFix::ConstPtr& msg){
     current_gps_state = *msg;
+}
+
+void current_pose_cb(const geometry_msgs::PoseStamped::ConstPtr& msg){
+    current_pose = *msg;
 }
 
 int main(int argc, char **argv)
@@ -32,6 +37,8 @@ int main(int argc, char **argv)
             ("mavros/state", 10, state_cb);
     ros::Subscriber global_gps_sub = nh.subscribe<sensor_msgs::NavSatFix>
             ("mavros/global_position/global", 10, gps_state_cb);
+    ros::Subscriber local_pos_sub = nh.subscribe<geometry_msgs::PoseStamped>
+            ("mavros/local_position/pose", 10, current_pose_cb);
     ros::Publisher local_pos_pub = nh.advertise<geometry_msgs::PoseStamped>
             ("mavros/setpoint_position/local", 10);
     ros::ServiceClient arming_client = nh.serviceClient<mavros_msgs::CommandBool>
@@ -97,12 +104,15 @@ int main(int argc, char **argv)
         pose.pose.position.y = sqrt(target.longitude - current_gps_state.longitude);
         pose.pose.position.z = (target.altitude - current_gps_state.altitude)/10;
 
-        if()
+        if(current_pose.pose.position.z > pose.pose.position.z-1 && current_pose.pose.position.z < pose.pose.position.z+1){
+          pose.pose.orientation.z = 1.57/2;
+          ROS_INFO("REACHED GPS HOTSPOT & ROTATED");
+        }
 
         local_pos_pub.publish(pose);
 
         //LANDING AFTER 20 SECONDS
-        // if(ros::Time::now() - start > ros::Duration(30)){
+        // if(ros::Time::now() - start > ros::Duration(50)){
         //     offb_set_mode.request.custom_mode = "AUTO.RTL";
         //     if(set_mode_client.call(offb_set_mode) && offb_set_mode.response.success){
         //         ROS_INFO("LANDING");
