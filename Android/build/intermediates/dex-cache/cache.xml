@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/aman/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/common-1.0.3_678e945642c4a82625c96de3f420be8ac77cf914.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/322247135f05feef9301ae3186d6dcfb3dd42771/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_4cc045009739c2d7391004ac6684693af229f55a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/78a11c7294cdd4e034e802464cf23e648afa55a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_4aabcecbaea7ac6f9ae54f60c57a8ac60b1956b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/8efcff546f32ac163fa03945280f6c6c4b39cf8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_e6785c8c80f3106e9ed7b2f74788296f0dca5178.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/a76fad003f2b6486f988dd6d344f9009405d3be3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_2b03e10d583774ea8d5fe8ef34a6f1d1ac2d369d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/6012cc7ec1262dab13426503464bc879dea75f8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_dbc37980a2079fb628276c688683a2a61a7ca60b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/368c8b1fbd7048f2887909350339c9a3fb8cd4f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_32e26049d0c6d39f2dedb730f776f9c611969cf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/4df94c5d4e2323674153a8bfdc8820ad763ee4d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_8a573dc9d44337c3f53962a48e51ddca30b3eb21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/a07ecfe393ea58ac7624dbca4b3e8690c42983c3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_816082d215d3732261e5989a3828ce6e3e445390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/87c77c43cbce4e10f4a5592aefcf758c0ae9c8d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_e306daf29f6f928e5114c3dc5066e87b374a9401.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/77fd069ae1ad14b7ab4b0de79aa49cfe3891d324/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_6d490da00c8841386935974cd32044d559084386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/82a54e81f52ae377cbd1f8d6a323fb6084f1d455/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_6463e491c77be7796dfc10f29f33e3023aa8b7ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/5dd07cd12ddeb9d73828e2e3b43f1212d255ea68/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_11f303cb70eeeb2cf3f0794b1ee1c5a867640bd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/98a5a233a5304449120db37cf8156fa7b6c9fe85/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_e363954dda4bd35d3ba402499e424094f997ec24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/69f279c7475e31ae7befedbc8629c6de4e8f1ba4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_e7af802ee5717d1f83696d6abd3057391c1e68ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/be04a78df2b6454c90e221e175357707ea2650e3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_7ad569b177e6db7e2bb0d726ade8346e34bc70ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/e3d366f3f258afa9ddae45997327e54ad5dbc4c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_95042eeae3dc8efbef83ea5aeacd2ff4e2c6873c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/common-1.0.0_5d9481841934765268042e234a55f277ef5979ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.android/build-cache/7510907e4793800af851db3e7ee50912e0659617/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/classes_7398e5a26e7fdad858e7873233a1413cbd68bd84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aman/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="/home/aman/AndroidStudioProjects/GrabGarbage/app/build/intermediates/pre-dexed/debug/support-annotations-27.0.2_381716b0cbd797c644637ee48dd72b7447f1444b.jar" />
+    </item>
+
+</items>
